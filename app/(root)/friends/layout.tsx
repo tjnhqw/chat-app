@@ -5,9 +5,7 @@ import AddFriendDialog from './_components/AddFriendDialog';
 import ConversationFallback from '~/components/conversations/ConversationFallback';
 import { redirect } from 'next/navigation';
 
-type Props = React.PropsWithChildren<{
-  name: string;
-}>
+type Props = React.PropsWithChildren<{}>
 
 function FriendsLayout({ children }: Props) {
   const { isAuthenticated } = useConvexAuth()

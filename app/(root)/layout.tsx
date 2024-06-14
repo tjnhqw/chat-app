@@ -4,9 +4,7 @@ import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import SidebarWrapper from '~/components/sidebar/SidebarWrapper';
 
-type Props = React.PropsWithChildren<{
-  name: string;
-}>
+type Props = React.PropsWithChildren<{}>
 
 function Layout({ children }: Props) {
 
